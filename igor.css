@@ -2,6 +2,14 @@
 	text-align:center;
 }
 
+body {
+	overflow-x:hidden;
+}
+
 h1 {
 	color:blue;
+}
+
+img {
+	max-width:98%;
 }
