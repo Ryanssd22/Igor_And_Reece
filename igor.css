@@ -1,15 +1,50 @@
 * {
 	text-align:center;
+	font-family:"Sato", sans-serif;
 }
 
 body {
 	overflow-x:hidden;
+	margin:0;
 }
 
 h1 {
-	color:blue;
+	color:white;
+	background-color:#636363;
+	margin:0;
+	padding:20px;
 }
 
 img {
 	max-width:98%;
+}
+
+.nav {
+	background-color:#cccccc;
+	overflow:hidden;
+	margin:0;
+}
+
+.nav a {
+	text-decoration:none;
+	color:black;
+	float:left;
+	padding:14px 16px;
+	text-align:center;
+	margin:0;
+}
+
+.nav a#active {
+	color:green;
+}
+
+.nav a:hover {
+	color:green;
+	background-color:black;
+}
+
+
+.center {
+	display:inline-block;
+	margin-bottom:-3px;
 }
