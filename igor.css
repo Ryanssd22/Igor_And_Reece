@@ -35,16 +35,21 @@ img {
 }
 
 .nav a#active {
-	color:green;
+	color:#18ba2b;
 }
 
 .nav a:hover {
-	color:green;
-	background-color:black;
+	color:white;
+	background-color:#919191;
 }
 
 
 .center {
 	display:inline-block;
 	margin-bottom:-3px;
+}
+
+img {
+	border:5px solid black;
+	border-radius:5px;
 }
