@@ -52,6 +52,7 @@ img {
 img {
 	border:5px solid black;
 	border-radius:5px;
+	max-width:95%;
 }
 
 h2 {
@@ -63,3 +64,4 @@ h2 {
 p {
 	font-family:"Sato", sans-serif;
 }
+
