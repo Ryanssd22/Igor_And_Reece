@@ -17,6 +17,29 @@
 	}
 }
 
+article::-webkit-scrollbar {
+	display:none;
+}
+
+article {
+	ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.gallerypic {
+	margin:5px;
+	width:48%;
+}
+
+.gallerypic.right {
+	float:right;
+}
+
+@media screen and (max-width: 736px) {
+	.gallerypic {
+		width:75%;
+	}
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
